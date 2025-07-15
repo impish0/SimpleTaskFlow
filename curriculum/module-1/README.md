@@ -41,7 +41,7 @@ node --version
 **If you see an error like "command not found" or "'node' is not recognized":**
 
 #### Install Node.js:
-1. **Go to** https://nodejs.org
+1. **Go to** https://nodejs.org/en/download
 2. **Download** the "LTS" version (left button, recommended for most users)
 3. **Run the installer** and click "Next" through all the steps
 4. **Restart your terminal/command prompt** (close and reopen it)
@@ -84,7 +84,7 @@ git --version
 #### Install Git:
 
 **Windows:**
-1. **Go to** https://git-scm.com/download/windows
+1. **Go to** https://git-scm.com/downloads/win
 2. **Download** and run the installer
 3. **Important:** During installation, when asked about "Adjusting your PATH environment", choose "Git from the command line and also from 3rd-party software"
 4. **Click "Next"** through other options (defaults are fine)
@@ -92,7 +92,7 @@ git --version
 6. **Try the command again:** `git --version`
 
 **Mac:**
-1. **Go to** https://git-scm.com/download/mac
+1. **Go to** https://git-scm.com/downloads/mac
 2. **Download** and run the installer
 3. **Follow the installation steps**
 4. **Try the command again:** `git --version`
@@ -113,7 +113,7 @@ sudo yum install git
 **We need a code editor to write our code. We recommend VS Code (free and popular):**
 
 #### Install VS Code:
-1. **Go to** https://code.visualstudio.com
+1. **Go to** https://code.visualstudio.com/
 2. **Click "Download"** (it should detect your operating system)
 3. **Run the installer**
 4. **Important for Windows:** Check "Add to PATH" during installation
@@ -176,7 +176,7 @@ pwd
 
 ### Step 3: Set Up Git (5 minutes)
 
-**Do this:** Type this command but replace with YOUR information:
+**Do this:** Type this command but replace with YOUR information (remove the quotes):
 
 ```bash
 git config --global user.name "Your Actual Name"
