@@ -1,0 +1,33 @@
+{
+  "name": "task-manager-server",
+  "version": "1.0.0",
+  "description": "Backend server for the task manager application",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:seed": "tsx prisma/seed.ts",
+    "db:reset": "prisma migrate reset --force",
+    "db:studio": "prisma studio"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "express-validator": "^7.2.0",
+    "@prisma/client": "^6.11.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/cors": "^2.8.17",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "tsx": "^4.19.2",
+    "prisma": "^6.11.1"
+  },
+  "keywords": ["express", "typescript", "prisma", "sqlite", "task-manager"],
+  "author": "",
+  "license": "MIT"
+}
