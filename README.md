@@ -1,4 +1,4 @@
-# 🎯 Task Manager - Complete Beginner Coding Course
+# 🎯 SimpleTaskFlow - Complete Beginner Coding Course
 
 **Never written code before?** Perfect! Build your first real web application in 5 weeks.
 
@@ -44,11 +44,11 @@ We're going to copy this entire course to your computer so you can work on it.
 **Copy this course to your computer:**
 
 ```bash
-# Download the course (this creates a TaskFlowOS folder)
+# Download the course (this creates a SimpleTaskFlow folder)
 git clone https://github.com/impish0/SimpleTaskFlow.git
 
 # Go into the course folder
-cd TaskFlowOS
+cd SimpleTaskFlow
 
 # Look around - you should see curriculum/, student-workspace/, etc.
 ls
@@ -171,8 +171,8 @@ A: You'll have built a real application and understand web development fundament
 ## 📞 Need Help?
 
 - 🤖 **Claude Tutor**: Ask questions anytime during the course
-- 🐛 **Found an issue?**: [Open a GitHub issue](https://github.com/impish0/TaskFlowOS/issues)
-- 💬 **Discussion**: [GitHub Discussions](https://github.com/impish0/TaskFlowOS/discussions)
+- 🐛 **Found an issue?**: [Open a GitHub issue](https://github.com/impish0/SimpleTaskFlow/issues)
+- 💬 **Discussion**: [GitHub Discussions](https://github.com/impish0/SimpleTaskFlow/discussions)
 
 ## 📜 License
 

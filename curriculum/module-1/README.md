@@ -165,7 +165,7 @@ cd my-task-manager
 ```bash
 pwd
 ```
-**You should see:** A path ending with "my-task-manager" (NOT inside TaskFlowOS!)
+**You should see:** A path ending with "my-task-manager" (NOT inside SimpleTaskFlow!)
 
 **Why separate?** 
 - Course materials = readonly reference

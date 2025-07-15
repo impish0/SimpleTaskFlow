@@ -39,7 +39,7 @@ After they complete each step successfully:
 The learning environment is organized for maximum student success:
 
 ```
-TaskFlowOS/
+SimpleTaskFlow/
 ├── README.md                    # Main repository overview
 ├── CLAUDE.md                    # Your tutor instructions
 ├── curriculum/                  # Step-by-step learning modules
