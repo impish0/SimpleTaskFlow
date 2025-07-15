@@ -45,7 +45,7 @@ We're going to copy this entire course to your computer so you can work on it.
 
 ```bash
 # Download the course (this creates a TaskFlowOS folder)
-git clone https://github.com/anthropics/TaskFlowOS.git
+git clone https://github.com/impish0/SimpleTaskFlow.git
 
 # Go into the course folder
 cd TaskFlowOS
@@ -153,14 +153,6 @@ A: Go at your own pace! The course will always be here.
 **Q: Will I be ready for a job after this?**
 A: You'll have built a real application and understand web development fundamentals. Many students use this as their portfolio project for job applications.
 
-## 🏆 Success Stories
-
-*"I was a complete beginner. After Module 3, I understood how websites actually work. After Module 9, I had a live app to show employers!"* - Sarah, Career Changer
-
-*"The step-by-step approach was perfect. I never felt lost because every step told me exactly what to do."* - Mike, Student
-
-*"I tried other courses but gave up. This one actually made me finish because I could see progress every day."* - Lisa, Self-Taught Developer
-
 ---
 
 ## 🚀 Ready to Start Your Coding Journey?
@@ -179,8 +171,8 @@ A: You'll have built a real application and understand web development fundament
 ## 📞 Need Help?
 
 - 🤖 **Claude Tutor**: Ask questions anytime during the course
-- 🐛 **Found an issue?**: [Open a GitHub issue](https://github.com/YOUR_USERNAME/TaskFlowOS/issues)
-- 💬 **Discussion**: [GitHub Discussions](https://github.com/YOUR_USERNAME/TaskFlowOS/discussions)
+- 🐛 **Found an issue?**: [Open a GitHub issue](https://github.com/impish0/TaskFlowOS/issues)
+- 💬 **Discussion**: [GitHub Discussions](https://github.com/impish0/TaskFlowOS/discussions)
 
 ## 📜 License
 
