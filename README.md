@@ -172,7 +172,6 @@ A: You'll have built a real application and understand web development fundament
 
 - 🤖 **Claude Tutor**: Ask questions anytime during the course
 - 🐛 **Found an issue?**: [Open a GitHub issue](https://github.com/impish0/SimpleTaskFlow/issues)
-- 💬 **Discussion**: [GitHub Discussions](https://github.com/impish0/SimpleTaskFlow/discussions)
 
 ## 📜 License
 
