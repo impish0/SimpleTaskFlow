@@ -1,4 +1,38 @@
-# Claude Tutor Instructions: Personal Task Manager Curriculum
+# SimpleTaskFlow Interactive - Development Guide & AI Tutor Instructions
+
+## 🚀 Current Project Status (Updated: July 2025)
+
+### ✅ Completed Features:
+1. **Core Development Environment**
+   - React + TypeScript + Vite frontend with Monaco Editor
+   - Express + TypeScript backend with real file operations
+   - Live file tree showing actual student project structure
+   - Save/Reset/Run functionality with live preview
+
+2. **Real Development Experience**
+   - Students work with actual files on disk (not simulations)
+   - Real Git repository initialization
+   - Actual npm commands and package management
+   - Live hot-reload development server (port 5174)
+
+3. **UI/UX Features**
+   - Collapsible panels for better screen management
+   - Dark/light theme with system detection
+   - Responsive layout for desktop screens
+   - Professional IDE-like interface
+
+### 🔄 In Progress:
+- Documentation updates
+- Terminal integration planning
+- AI tutor chat system design
+
+### 📋 Next Features to Build:
+1. **Terminal Integration** - Real terminal in the UI for npm/git commands
+2. **AI Tutor Chat** - Claude integration for contextual help
+3. **Curriculum System** - Step-by-step learning modules
+4. **Progress Tracking** - Save student progress and achievements
+
+---
 
 ## Your Role as Programming Tutor
 
@@ -390,6 +424,89 @@ A successful tutoring session results in:
 Your goal is to help complete beginners successfully follow the step-by-step curriculum. The modules provide the code and explanations. Your role is to help when they get stuck, ensure they understand what they've built, and keep them moving forward confidently.
 
 **Support the curriculum. Help them succeed at each step. Build confidence through working code. Understanding grows from hands-on success.**
+
+---
+
+## 🔧 Technical Architecture (For Developers)
+
+### System Overview
+```
+SimpleTaskFlow Interactive
+├── Frontend (React + TypeScript + Vite)
+│   ├── Monaco Editor for code editing
+│   ├── File tree component
+│   ├── Live preview iframe
+│   └── Collapsible panel layout
+├── Backend (Express + TypeScript)
+│   ├── File operations API
+│   ├── Dev server management
+│   ├── Terminal command execution
+│   └── Project initialization
+└── Student Workspace
+    └── my-task-manager (Real React project)
+```
+
+### Key Components
+
+#### Frontend (`/src`)
+- **App.tsx** - Main application with project initialization
+- **components/editor/code-editor.tsx** - Monaco Editor integration
+- **components/files/file-tree.tsx** - Interactive file browser
+- **components/layout/app-layout.tsx** - Three-panel IDE layout
+- **stores/fileStore.ts** - Zustand store for file state management
+
+#### Backend (`/server`)
+- **server.ts** - Express server with WebSocket support
+- **routes/files.ts** - File CRUD operations
+- **routes/devServer.ts** - Dev server lifecycle management
+- **routes/project.ts** - Project initialization
+- **services/projectManager.ts** - Creates student React projects
+- **services/devServerManager.ts** - Manages Vite dev server
+
+### Running the System
+
+```bash
+# Terminal 1 - Backend (port 3001)
+npm run dev:server
+
+# Terminal 2 - Frontend (port 3000) 
+npm run dev
+
+# Visit http://localhost:3000
+```
+
+### API Endpoints
+
+- `GET /api/project/status` - Check if student project exists
+- `POST /api/project/init` - Initialize new student project
+- `GET /api/files?path=...` - Read file content
+- `PUT /api/files` - Save file content
+- `GET /api/files/tree` - Get project file tree
+- `POST /api/dev-server/start` - Start preview server
+- `POST /api/dev-server/stop` - Stop preview server
+
+### Next Implementation Priorities
+
+1. **Terminal Integration**
+   - Use xterm.js for terminal UI
+   - Connect to backend terminal routes
+   - Handle command execution and output streaming
+
+2. **AI Tutor Chat** 
+   - Integrate Claude SDK
+   - Context-aware responses based on current file/step
+   - Real-time code verification
+
+3. **Curriculum System**
+   - YAML/Markdown based curriculum definition
+   - Step verification system
+   - Progress tracking with SQLite
+
+4. **Enhanced Features**
+   - Multi-file editing support
+   - Git integration UI
+   - Test runner integration
+   - Collaborative features
 
 ## Key Points for Success
 
